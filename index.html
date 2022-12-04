@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Chat App</title>
+    <link rel="stylesheet" type="text/css" href="static/css/style.css">
+    <!--    <script src="https://apis.google.com/js/platform.js" async defer></script>-->
+    <script src="https://accounts.google.com/gsi/client" async defer></script>
+
+</head>
+<body>
+<div id="app">
+    <h1>An Optimistic Chat</h1>
+    <div id="g_id_onload"
+         data-client_id="344620317433-obvuuqp3jjm0b9q1ptnmlni0enc7q1mc.apps.googleusercontent.com"
+         data-callback="onSignIn">
+    </div>
+    <div class="g_id_signin"
+         data-type="standard"
+         data-size="large"
+         data-theme="outline"
+         data-text="sign_in_with"
+         data-shape="rectangular"
+            data-logo_alignment="left">
+    </div>
+    <br />
+    <button id="logout-button" onclick="onSignOut()">Sign out</button>
+    <div id="chat-log">
+        <!-- This is where the chat messages will be displayed -->
+    </div>
+    <form id="chat-form">
+        <label for="chat-input"></label><input type="text" id="chat-input" placeholder="Enter your message" rows="4" cols="50" maxlength="200">
+        <button type="submit" onclick="onFormSubmit()">Send</button>
+    </form>
+</div>
+<script src="static/js/app.js"></script>
+<!-- The jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js" async defer></script>
+</body>
+</html>
