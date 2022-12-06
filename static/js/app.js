@@ -159,7 +159,8 @@ function onFormSubmit() {
 
     // Add the user's message to the chat log
     addChatMessage(message);
-    const url = "https://eliza-bot-4xeslgq7aq-uc.a.run.app"
+    // const url = "https://eliza-bot-4xeslgq7aq-uc.a.run.app"
+    const url = "https://eliza-bot-web-4xeslgq7aq-ez.a.run.app"
     // const url = "http://localhost:5000/sms"
     // Send the message to the backend
     $.ajax({
