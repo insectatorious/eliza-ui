@@ -25,7 +25,7 @@ body {
 }
 
 /* Add a responsive style for screens that are 768px or smaller */
-@media only screen and (max-width: 768px) and (min-width: 481px) {
+@media only screen and (max-width: 1000px) and (min-width: 481px) {
     #app {
         width: 100%;
     }
@@ -42,7 +42,7 @@ body {
     }
 }
 
-@media only screen and (min-width: 769px) {
+@media only screen and (min-width: 1001px) {
     #app {
         width: 50%;
     }
