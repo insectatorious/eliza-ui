@@ -32,7 +32,7 @@ body {
 
     #chat-log {
         /*height: 100%;*/
-        max-height: 500px;
+        max-height: 80vh;
         min-height: 300px;
     }
 
